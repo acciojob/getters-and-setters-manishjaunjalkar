@@ -13,16 +13,24 @@ class Person {
 }
 
 class Student extends Person {
-	study(name){
+	study(){
 		console.log( this.name +" is studying");
 	}
 }
 
 class Teacher extends Person {
-	teach(name){
+	teach(){
 		console.log(this.name + " is teaching");
 	}
 }
+
+const Person = new Person(John, 25);
+console.log(Person.name);
+Person.age = 30;
+const Student = new Student("Jane",20);
+study();
+const Teacher = new Teacher("Bob", 35);
+teach();
 
 // Do not change the code below this line
 window.Person = Person;
