@@ -24,12 +24,12 @@ class Teacher extends Person {
 	}
 }
 
-const Person = new Person(John, 25);
+const person = new Person(John, 25);
 console.log(Person.name);
 Person.age = 30;
-const Student = new Student("Jane",20);
+const student = new Student("Jane",20);
 study();
-const Teacher = new Teacher("Bob", 35);
+const teacher = new Teacher("Bob", 35);
 teach();
 
 // Do not change the code below this line
